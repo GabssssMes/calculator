@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(231, 222, 222);
+    display: flex;
+    margin:0px;
+    flex-direction: column;
+}
+.Calculator{
+    background-color: rgb(2, 2, 70);
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding:3% 3%;
+    gap:3%;
+    margin: 50px;
+    border-radius: 20px;
+    align-self: center;
+}
+.display{
+    background-color: rgb(95, 99, 92);
+    height: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding:10px;
+    border-radius: 10px;
+}
+.displayold{
+    word-wrap: break-word;
+    color:black;
+    font-size: 25px;
+    height:40%;
+    padding-top: 10%;
+    text-align: right;
+}
+.displaynew{
+    word-wrap: break-word;
+    color:black;
+    font-size: 35px;
+    height:60%;
+    text-align: right;
+}
+.calc{
+    margin-top: 5px;
+    height:10%;
+    display:flex;
+    gap:15%
+}
+.cal{
+    flex:1
+}
+.numoperators{
+    height:55%;
+    display: flex;
+    gap:7%;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+    width:25%;
+    height: 100%;
+}
+.operator{
+    flex:1;
+    width: 80%;
+
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    height: 100%;
+    gap:7%;
+
+}
+.one,.two,.three,.four{
+    flex:1;
+    display: flex;
+    gap:7%;
+}
+.number, .decimal, .minus{
+    flex:1;
+}
+button{
+    border-radius: 10%;
+    font-size: 25px;
+    background-color: black;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(63, 54, 54);
+}
+button.operator{
+    background-color: beige;
+    color: black;
+}
+button.operator:hover{
+    background-color: rgb(155, 155, 135);
+}
+button.cal{
+    background-color: rgb(185, 59, 59);
+    color: white;
+}
+button.cal:hover{
+    background-color: rgb(228, 149, 45);
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    height:3%;
+    padding-top:10px;
+    left:0;
+    bottom:0;
+    text-align: center;
+}
